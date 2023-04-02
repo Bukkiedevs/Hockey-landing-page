@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🏑Hockey</title>
+    <style>
+      h1 {
+        text-align: center;
+        color: #5c5470;
+      }
+      hr {
+        color: #5c5470;
+      }
+      .design {
+        color: black;
+        line-height: 30px;
+        font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+        font-weight: 400px;
+        font-size: large;
+      }
+      h2 {
+        color: #5c5470;
+        text-align: center;
+        text-decoration: underline;
+      }
+      strong {
+        color: black;
+      }
+      a {
+        color: black;
+      }
+      .nut {
+        display: inline-block;
+        margin-left: 45px;
+        margin-top: 50px;
+        margin-right: 45px;
+        margin-bottom: 55px;
+        height: 280px;
+      }
+
+      .ewe {
+        display: inline-block;
+        margin-left: 45px;
+        margin-top: 50px;
+        margin-right: 45px;
+        margin-bottom: 55px;
+        height: 280px;
+      }
+      .kad {
+        display: inline-block;
+        margin-left: 45px;
+        margin-top: 50px;
+        margin-right: 45px;
+        margin-bottom: 55px;
+        height: 280px;
+      }
+      .dec {
+        background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 35px;
+      }
+      .pop {
+        text-align: center;
+      }
+      .dot {
+        text-align: center;
+        color: #5c5470;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid #5c5470;
+        background: #5c5470;
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 24px 30px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgba(90, 40, 92, 0.09) 0px 8px 8px 0;
+        cursor: pointer;
+      }
+      button:hover {
+        background: white;
+        color: #5c5470;
+        border: 1px solid #5c5470;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HOCKEY</h1>
+    <hr />
+    <h2>Hockey game <span> "The definition" </span></h2>
+
+    <div class="design">
+      Hockey is a term used to denote various types of both summer and winter
+      team sports which originated on either an outdoor field, sheet of ice, or
+      dry floor such as in a gymnasium. There are many types of hockey, some
+      games make the use of skates, either wheeled, or bladed skates while
+      others do not.
+    </div>
+    <div class="design">
+      In order to help make the distinction between these various games, the
+      word "hockey" is often preceded by another word i.e. "field hockey", "ice
+      hockey", "roller hockey" or "floor hockey". In each of these sports, two
+      teams play against each other by trying to manoeuvre the object of play,
+      either a type of ball or a disk (such as a puck), into the opponent's goal
+      using a hockey stick.
+    </div>
+    <p>
+      <a href="https://en.wikipedia.org/wiki/Hockey"> Learn more </a>
+    </p>
+    <div class="dec">
+      <img
+        src="
+    https://s3.amazonaws.com/shecodesio-production/uploads/files/000/046/098/original/Hockey.jpg?1662994583"
+        alt="image of hockey players"
+        width="350"
+        class="nut"
+      />
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/046/259/original/Hockey_3.jpg?1663253475"
+        alt="image of hockey players"
+        width="350"
+        class="ewe"
+      />
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/046/101/original/Hockey_2.jpg?1662995648"
+        alt="image of hockey players"
+        width="350"
+        class="kad"
+      />
+    </div>
+    <div><br /><button>Do you like news like this? Stay in touch!</button></div>
+    <br />
+    <p class="dot"><em> Built by Omoleye Gbemisola </em></p>
+    <script>
+      function apply() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+        let age = prompt("What is your age?");
+        if (age >= 12) {
+          alert("Thank you, we will get in touch with you!");
+        } else {
+          alert("Sorry, you are not of age for this kind of news!");
+        }
+      }
+      let getIn = document.querySelector("button");
+      getIn.addEventListener("click", apply);
+    </script>
+  </body>
+</html>
